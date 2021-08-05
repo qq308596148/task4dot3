@@ -1,0 +1,8 @@
+Api
+GET student/findAll
+curl http://localhost:8080/student/findAll
+
+api return datastruture
+[{"id":1,"name":"qwe","age":18},
+{"id":2,"name":"asd","age":18},
+{"id":3,"name":"zxc","age":18}]
