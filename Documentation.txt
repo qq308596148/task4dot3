@@ -1,0 +1,18 @@
+Operating system environment prerequisites：
+Installed JDK1.8
+Installed Tomcat 9x
+Installed mysql community version ，Set the user name to root，Set password to sdsd0000.
+
+1. Execute the statements contained in DB.sql in mysql
+2. put the war file under the folder : tomcat/webapp
+3.go to bin folder
+4. If you use widows, run startup.bat，
+   If you use linux,  run startup.sh,
+
+ When you run it, the command line window should show up. Wait for 10 seconds(It takes while for the process), 
+If the command line window disappears after flashing, or there is no response, make sure your java operating environment version is above 1.8.
+
+5. then access the following address on your explorer
+localhost:8080/CISC3140/student/findAll   （The JavaServer Page shows data from the backend I create from 4.2）
+localhost:8080/CISC3140/student/index   （The JavaServer Page shows database）
+
